@@ -3,12 +3,12 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const developmentConfig = {
-    host: "db",
+    host: "localhost",
     port: 3306,
     name: "l_v",
     dialect: "mysql",
-    user: "lv_user",
-    password: "lv_password"
+    user: "root",
+    password: ""
 };
 
 const productionConfig = {
